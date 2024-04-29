@@ -1,0 +1,88 @@
+body {
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    height: 70px;
+    width: 70px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: auto;
+    max-width: 955px;
+    height: 60vh;
+    border: 2px solid black;
+    padding: 20px 13px;
+    margin-bottom: 27px;
+    /* overflow-y: auto;
+    overflow: hidden; */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    border-radius: 20px;
+}
+
+  
+.container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in WebKit browsers */
+  }
+
+.message {
+    background-color: #fbeffb;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 70%;
+    padding: 12px;
+    margin: 3px 9px;
+    /* margin-bottom: 10px; */
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#send-container {
+    max-width: 980px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+#messageInp {
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 83%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+.bold {
+    font-weight: bold;
+}
