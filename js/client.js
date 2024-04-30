@@ -1,4 +1,6 @@
 // const socket = io("http://localhost:8000");
+const { Server } = require("socket.io");
+const io = new Server(8000, {});
 const baseurl = "https://speakeasy-a-chat-app.onrender.com";
 const socket = io(`${baseurl}`, { transports: ["websocket"] });
 const form = document.getElementById('send-container');
