@@ -2,6 +2,7 @@ const { Server } = require("socket.io");
 const io = new Server(8000, {});
 const users = {};
 const cors = require('cors');
+console.log("App is running on port 5500");
 io.on('connection', socket => {
     socket.on('new-user-joined', name => {
         console.log("New user", name);
